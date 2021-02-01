@@ -1,0 +1,11 @@
+<%- include('header'); -%>
+    <h1>Home</h1>
+<div class="content">
+    <p><%=startContent %> </p>
+</div>
+<%for(var i=0;i<written.length;i++){  %> 
+    <a href="/posts/<%= written[i].title %>" class="linktopost"> <h1><%= written[i].title %> </h1> </a>
+    <p class="homecontent"><%=written[i].content %> </p>
+<% } %> 
+
+<%- include('footer'); -%>
