@@ -1,0 +1,52 @@
+body{
+    text-align: center;
+    height: 100%;
+    word-wrap: break-word
+}
+.homecontent{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+h1,p{
+    width: 80%;
+    margin-left: 10%;
+}
+.linktopost{
+    color: black;
+    text-decoration: none;
+}
+.footers{
+    background-color: rgb(230, 251, 255);
+    display: block;
+    width: 100%;
+    position: relative;
+   top: 500px;
+    
+height: 35px;
+    
+    
+} 
+/* .compose{
+   
+} */
+.sub{
+    margin-bottom: 20px;
+   
+}
+label{
+    font-weight: 500;
+    
+    
+}
+.inp{
+    width: 80%;
+    margin-left: 30px;
+    
+}
+.content{
+    
+    display: block;
+    
+}
+
