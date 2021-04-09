@@ -3,8 +3,8 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const ejs = require("ejs");
 
-const homeStartingContent = "Welcome to our Blogging Site start creating and uploading interesting content";
-const aboutContent = "We created this website for you to read amazing content daily";
+const homeStartingContent = "Welcome to our Blogging Site start creating and uploading interesting content you can read amazing blogs and can create your very own blogs by clicking on the compose button on the navbar so what are you waiting for start now!!";
+const aboutContent = "We created this website for you to read amazing content daily and to increase the knowledge of your brain by giving it new stories and content everyday";
 
 var _ = require('lodash');
 const app = express();
