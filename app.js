@@ -15,9 +15,7 @@ app.set('view engine', 'ejs');
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
 
-let options={
 
-}
 app.get("/",function (req,res) {
     res.render("home",{startContent:homeStartingContent,written:allposts})
     
@@ -59,9 +57,9 @@ app.get('/posts/:topic', function (req, res) {
 
 
 
+let port = process.env.PORT;
 
 
-
-app.listen(3000, function() {
+app.listen(port, function() {
   console.log("Server started on port 3000");
 });
